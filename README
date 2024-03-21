@@ -1,0 +1,34 @@
+# Gail Cliff
+# spring break 2024
+# helluva windy day
+# sore eyes
+# hella thoughts
+# f it we ball
+# anywho
+# i'm really creating MeTym to help me solve my own problems
+# with life
+# and i hope that it will help other people with theirs as well :)
+# if some day someone says "I love MeTym!"
+# that will put a smile on my face :)
+# a wide smile
+# because then i will know that i played a part in making the world a better place
+# by helping them make their life better
+# for lack of a better word
+# no pun intended
+# let me start by writing a simple program to say "I love MeTym!"
+
+# metym.py
+class MeTym:
+  say: str
+
+  def __init__(self):
+    self.say = 'I love MeTym!'
+
+  def __call__(self):
+    print(self.say)
+
+if __name__ == '__main__':
+  metym = MeTym()
+  metym()
+
+# hopefully some day it will be real person saying it :)
